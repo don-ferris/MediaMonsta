@@ -84,7 +84,7 @@ MIT License. See LICENSE for details.
 
 Credits
 
-• Jellyfin – Open source media server
-• DebridMediaManager – Torrent selection and casting
-• HandBrake – Video transcoder
-• ntfy – Notifications
+* Jellyfin – Open source media server
+* DebridMediaManager – Torrent selection and casting
+* HandBrake – Video transcoder
+* ntfy – Notifications
