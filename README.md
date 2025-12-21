@@ -32,7 +32,7 @@ _Internet down? Can’t find anything good to watch on all those streaming servi
 A fixed‑header toolbar with iframe‑based content panes:
 1. **Search IMDB** – query IMDB directly, results load below
 2. **Add to Library** – send IMDB ID to DMM, choose torrent, cast → watch locally
-3. **Fast filter buttons** - for narrowing down torrents to the ones that meet your criteria
+3. **Fast filter buttons** - for narrowing down DMM torrents to those that meet specific criteria
 4. **2DL Notepad** – jot quick notes about titles to download
 5. **My RD Links** – view your Real‑Debrid links page
 6. **History** – browse download history
