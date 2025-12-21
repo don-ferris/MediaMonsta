@@ -11,16 +11,16 @@ _Internet down? Can’t find anything good to watch on all those streaming servi
 ### 🎬 Core Pipeline
 - Automated acquisition of Real‑Debrid links
 - Download management with retry logic and integrity checks
-- JSON‑based metadata tracking
 - File renaming and normalization
 - Subtitle inspection and (optional) acquisition
 - Optional HandBrake‑based reencoding:
+  - Adjust video quality for smaller file sizes
   - Create AC3 audio track if missing 
   - Preserve advanced audio (TrueHD, DTS‑HD MA, Atmos, DTS:X)
   - Remove non‑English audio tracks (unless primary track in foreign‑language films)
   - Retain English + forced subtitles, strip others
 - Resolution‑based organization (4K / 1080p / 720p / SD)
-- ntfy notifications for completion of long-running processes and error resolution.
+- ntfy notifications for completion of long-running processes (reencoding) and error resolution.
 
 ### 📺 Integrated Services
 - **Jellyfin** – self‑hosted media server for playback
@@ -32,13 +32,14 @@ _Internet down? Can’t find anything good to watch on all those streaming servi
 A fixed‑header toolbar with iframe‑based content panes:
 1. **Search IMDB** – query IMDB directly, results load below
 2. **Add to Library** – send IMDB ID to DMM, choose torrent, cast → watch locally
-3. **2DL Notepad** – jot quick notes about titles to download
-4. **My RD Links** – view your Real‑Debrid links page
-5. **History** – browse download history
-6. **DL Log** – monitor current download activity
-7. **VPN Status** – map view with red/green dot showing your public IP location
-8. **Settings** – configure MediaMonger, RealDebrid, and DMM
-9. **Documentation** – access full MediaMonger docs
+3. **Fast filter buttons** - for narrowing down torrents to the ones that meet your criteria
+4. **2DL Notepad** – jot quick notes about titles to download
+5. **My RD Links** – view your Real‑Debrid links page
+6. **History** – browse download history
+7. **DL Log** – monitor current/past download activity
+8. **VPN Status** – map view with red/green dot showing your public IP location
+9. **Settings** – configure MediaMonger, RealDebrid, and DMM
+10. **Documentation** – access full MediaMonger docs
 
 ---
 
