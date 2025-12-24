@@ -1,8 +1,8 @@
-# MediaMonger
+# MediaMonsta
 
 _Internet down? Can’t find anything good to watch on all those streaming services? Oversubscribed and overpaying and still not getting the content you want?_
 
-**MediaMonger** is your personal, offline media library — an all‑in‑one, plug‑and‑play media‑server‑in‑a‑(virtual)‑box. Watch whatever you want, whenever you want, with a system that automatically downloads, processes, and organizes your content into a polished local library.
+**MediaMonsta** is your personal, offline media library — an all‑in‑one, plug‑and‑play media‑server‑in‑a‑(virtual)‑box. Watch whatever you want, whenever you want, with a system that automatically downloads, processes, and organizes your content into a polished local library.
 
 ---
 
@@ -25,10 +25,10 @@ _Internet down? Can’t find anything good to watch on all those streaming servi
 ### 📺 Integrated Services
 - **Jellyfin** – self‑hosted media server for playback
 - **DebridMediaManager (DMM)** – torrent selection and casting
-- **MediaMonger Web UI (Flask)** – unified control center
+- **MediaMonsta Web UI (Flask)** – unified control center
 - **Setup Wizard & Tutorial** – get running in minutes
 
-### 🖥️ MediaMonger Web UI
+### 🖥️ MediaMonsta Web UI
 A fixed‑header toolbar with iframe‑based content panes:
 1. **Search IMDB** – query IMDB directly, results load below
 2. **Add to Library** – send IMDB ID to DMM, choose torrent, cast → watch locally
@@ -38,8 +38,8 @@ A fixed‑header toolbar with iframe‑based content panes:
 6. **History** – browse download history
 7. **DL Log** – monitor current/past download activity
 8. **VPN Status** – map view with red/green dot showing your public IP location
-9. **Settings** – configure MediaMonger, RealDebrid, and DMM
-10. **Documentation** – access full MediaMonger docs
+9. **Settings** – configure MediaMonsta, RealDebrid, and DMM
+10. **Documentation** – access full MediaMonsta docs
 
 ---
 
@@ -47,8 +47,8 @@ A fixed‑header toolbar with iframe‑based content panes:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/MediaMonger.git
-   cd MediaMonger
+   git clone https://github.com/yourusername/MediaMonsta.git
+   cd MediaMonsta
 
 2. Start the containerized stack:
     ```bash
@@ -59,9 +59,9 @@ A fixed‑header toolbar with iframe‑based content panes:
   • RealDebrid account
   • Jellyfin instance
   • DebridMediaManager
-  • MediaMonger settings
+  • MediaMonsta settings
 
-4. go to [your server IP]:2222 to open the MediaMonger web UI in your browser and begin building your offline library.
+4. go to [your server IP]:2222 to open the MediaMonsta web UI in your browser and begin building your offline library.
 5. Go to [your server IP] to use Jellyfin and start watching movies from your library.
 
 
